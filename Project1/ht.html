@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Card</title>
+        <style>
+            #card{
+                margin: 5px;
+                padding:20px;
+                border:solid #E5E7EB;
+                border-radius: 15px;
+                filter:drop-shadow(30px 10px 4px rgba(30, 58, 138, 0.12));
+                background-color: #F3F4F6;
+            }
+            #name{
+                font-weight: 600;
+                color:#1E3A8A;
+                transition-property: all;
+                transition-duration: 2s;
+                text-align: center;
+            }
+            #name:hover{
+                color:pink;
+
+            }
+            img{
+                height: 200px;
+                width: 200px;
+                 border:solid purple;
+                border-radius: 100px;
+            }
+            #img{
+                text-align: center;
+            }
+            img:hover{
+                filter: drop-shadow(30px 10px 4px rgba(30, 58, 138, 0.25));
+                transform: translateY(5px);
+                transition-duration: 0.4s;
+            }
+            #bio{
+                background-color: #EFF6FF;
+                padding: 5px;
+                border-radius: 40px;
+                text-align: center;
+                border: solid #6D28D9; 
+            }
+            #bio:hover{
+             filter: drop-shadow(30px 10px 4px rgba(30, 58, 138, 0.15 ));
+              transform: translateY(5px);
+              transition-duration: 0.2s;
+            }
+            strong{
+                color: #6D28D9;
+            }
+            button{
+            height: 50px;
+            border:solid #6D28D9;
+            border-radius: 100px;
+            background-color: #6D28D9;
+            color:white;
+            text-align: center;
+           
+            }
+            #skills{
+                text-align: center;
+            }
+            button:hover{
+           filter:drop-shadow(30px 10px 4px rgba(30,58,138,0.15));
+           transform: translateY(5px);
+           transition-duration: 0.2s;
+            }
+            #contact{
+               background-color:#6D28D9 ;
+
+            }
+            #contact:hover{
+             transform: translateY(5px);
+             filter:drop-shadow(20px);
+             color:#5B21B6;
+             transition-duration: 0.2s;
+            }
+        </style>
+     </head>
+     <body>
+        <div id="card">
+        <div id="name">
+            <h2>Yuvika | Aspiring Developer</h2>
+            <p>"Aspiring Software Developer"</p>
+        </div>
+        <br>
+        <div id="img">
+        <img src="https://i.pinimg.com/736x/f5/ca/27/f5ca27de9a9dae907ed18e297a0dd001.jpg">
+    </div>
+        <br>
+        <div id="bio">
+            <h2>ABOUT ME</h2>
+            <p>I am an aspiring <strong>software developer</strong> passionate about building real-world applications and improving problem-solving skills.<br><br>Currently, I am learning <strong>HTML, CSS, Java, and Data Structures & Algorithms (DSA)</strong> to strengthen my development foundation<br><br>My goal is to become a <strong>skilled software engineer and create impactful,user-friendly projects. </strong></p>
+        </div>
+        <br>
+        <div id="skills">
+            <h2>TECH STACK</h2>
+            <h3>WEB</h3>
+            <button>HTML</button><button>CSS</button>
+            <h3>Languages</h3>
+            <button>Java</button><button>C</button>
+            <h3>CORE CONCEPTS</h3>
+            <button>Data Structures & Algorithms</button><button>Problem Solving</button><br> Responsive Web Design. Passionate about learning new technologies and building practical projects.</p>
+        </div>
+        <br>
+        <button id="contact">Contact</button>
+        </div>
+     </body>
+</html>
